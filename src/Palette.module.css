@@ -1,0 +1,9 @@
+.root {
+  display: grid;
+  height: 100%;
+  width: 100%;
+}
+
+.root li {
+  list-style-type: none;
+}

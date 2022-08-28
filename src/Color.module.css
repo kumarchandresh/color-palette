@@ -1,0 +1,16 @@
+.root {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column-reverse;
+}
+
+.caption {
+  margin: 4px 8px;
+}
