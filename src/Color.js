@@ -1,6 +1,5 @@
 import { Component } from "react";
 import styles from "./Color.module.css";
-import { titleCase } from "./utils/string";
 
 export default class Color extends Component {
   render() {
@@ -11,7 +10,7 @@ export default class Color extends Component {
         {
           this.props.name
             ? <figcaption className={styles.caption}>
-              <p>{titleCase(this.props.name)}</p>
+              <p>{this.props.name}</p>
             </figcaption>
             : <figcaption className={styles.caption}>
               <code>{this.props.value}</code>

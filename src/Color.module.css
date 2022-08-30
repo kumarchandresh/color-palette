@@ -12,5 +12,8 @@
 }
 
 .caption {
+  text-transform: uppercase;
   margin: 4px 8px;
+  font-size: 12px;
+  letter-spacing: 1px;
 }
